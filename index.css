@@ -1,7 +1,6 @@
 body{
     background-color: black;
     zoom:1;
-    transform: scale(1);
   }
   /*HEAD PARTIEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
   .rectangel{
@@ -43,7 +42,7 @@ body{
   }
   .ytb{
     display: flex;
-  width: -31px;
+  width: 0px;
   height: 197px;
   margin-top: -53px
   }
@@ -53,7 +52,7 @@ body{
   padding: 1%;
   }
   .searchh{
-  width: 486%;
+  width: 100%;
   max-width: 183%;
   padding: 3% 4% 3% 4%;
   font-size: 44px;
@@ -61,10 +60,7 @@ body{
   background-color: rgb(17, 17, 17);
   color: white;
   text-align: start;
-  margin: 33px 7px;
-    margin-left: 7px;
-  margin-left: 155px;
-  margin-left: 6px;
+  margin-right: 33px ;
   border: none;
   margin-left: -137px;
   }
@@ -154,7 +150,7 @@ body{
   height: 90px;
   width: 90px;
   }
-  .home,.shorts,.subcriptons,.trending,.music,.gaming,.sports,.settings,.report-history,.help,.send-feedback,.history,.playlists,.watchlater,.playlists,.likedvideos,.yourcourses{
+  .home,.shorts,.subcriptons,.trending,.music,.gaming,.sports,.settings,.report-history,.help,.send-feedback,.history,.watchlater,.playlists,.likedvideos,.yourcourses{
     display: flex;
     gap: 45px;
     margin-top: 10px;
@@ -167,7 +163,7 @@ body{
   width: 350px;
   height: 10px;
   background-color: black;
-  border-radius: 10%;
+  border-radius: 10px;
   margin-top: 8px;
   }
   .infoo{
@@ -179,14 +175,14 @@ body{
   width: 90x;
   height: 90px;
   background-color: gray;
-  border-radius: 150%;
+  border-radius: 50%;
   }
   .imm{
-  margin: top 10px;;
+  margin-top: 10px;
   width: 90px;
   height: 90px;
   background-color: gray;
-  border-radius: 150%;
+  border-radius: 50%;
   }
   h5{
   color: white;
@@ -222,30 +218,30 @@ body{
   margin-left: 50px;
   }
   .cercle{
-    width: 120x;
-    height: 120px;
-    background-color: gray;
-    border-radius: 150%;
-  }
-  .im{
-    margin: top 10px;;
     width: 120px;
     height: 120px;
     background-color: gray;
     border-radius: 150%;
   }
+  .im{
+    margin-top:10px;
+    width: 120px;
+    height: 120px;
+    background-color: gray;
+    border-radius: 50%;
+  }
   .div5{
       width: 700px;
       height: 20px;
       background-color: black;
-      border-radius: 10%;
+      border-radius: 10px;
       margin-top: 8px;
   }
   .div6{
     width: 500px;
     height: 20px;
     background-color: black;
-    border-radius: 10%;
+    border-radius: 10px;
     margin-top: 25px;
   }
   .info{

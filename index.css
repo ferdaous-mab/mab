@@ -51,8 +51,8 @@ body{
   padding: 1%;
   }
   .searchh{
-  width: 486%;
-  max-width: 183%;
+    width: 100%;
+    max-width: 600px; 
   padding: 3% 4% 3% 4%;
   font-size: 44px;
   border-radius: 66px;
@@ -78,11 +78,9 @@ body{
   }
   .cree{
   width: 178px;
-  background-color: #fcf8f8;
   margin-right: 13px;
   border-radius: 50px;
   padding-top: 0px;
-  background-color: #f8f8f8;
   cursor: pointer;
   height: 106px;
   font-size: 36px;
@@ -133,11 +131,12 @@ body{
   .menu{
   overflow: auto;
   }
+
   hr{
   height: 1px;
   background-color: gray;
   border: none;
-  margin: 75px -140px
+ 
   }
   h3{
   color:white;
@@ -222,7 +221,7 @@ body{
     border-radius: 50%;
   }
   .im{
-    margin: top 10px;;
+    margin-top :10px;
     width: 120px;
     height: 120px;
     background-color: gray;
